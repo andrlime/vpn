@@ -15,6 +15,7 @@ class SensibleDefaultBackend:
         self.port = port
         self.iface = iface
         self._process: subprocess.Popen | None = None
+        logger.info(f"Instantiated SensibleDefaultBackend({label}) to {host}:{port} for interface {iface}")
 
     @staticmethod
     def _emoji_of_state(state: State) -> str:
