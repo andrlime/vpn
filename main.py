@@ -1,7 +1,4 @@
-from sockpuppet import VpnApp, VpnConfig
-from sockpuppet.backend import SensibleDefaultBackend
+from sockpuppet import main
 
 if __name__ == "__main__":
-    cfg = VpnConfig.load()
-    backend = SensibleDefaultBackend(cfg.name, cfg.host, cfg.port)
-    VpnApp(backend).run()
+    main()

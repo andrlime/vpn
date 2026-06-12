@@ -8,6 +8,9 @@ dependencies = [
     "rumps>=0.4.0",
 ]
 
+[project.scripts]
+sockpuppet = "sockpuppet:main"
+
 [dependency-groups]
 dev = [
     "pyrefly>=1.0.0",
