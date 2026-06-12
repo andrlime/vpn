@@ -1,5 +1,5 @@
 [project]
-name = "vpn"
+name = "sockpuppet"
 version = "0.1.0"
 description = "A simple wrapper for SOCKS proxy"
 readme = "README.md"
